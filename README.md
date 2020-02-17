@@ -54,7 +54,7 @@ example
 vfuse -t /Users/cdevice/Documents/VM/MacOS10.15_DEP.json
 
 
-for examples of templates please see my Non DEP and My DEP (note the dep is linked to my zero touch workflow just replace Serialnumber with one in your org where as my Non DEP is a generic template.
+For examples of templates please see my Non DEP and My DEP (note the dep is linked to my zero touch workflow just replace Serialnumber with one in your org where as my Non DEP is a generic template. Also note the templates are reuseable
 
 
 
