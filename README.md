@@ -44,13 +44,10 @@ Guide on this is https://blog.eriknicolasgomez.com/2018/03/26/macOS-testing-tric
 Step 7: 
 
 Step 8 option a- Open terminal and run using the format
+/usr/local/vfuse/bin/vfuse -i /path/to/dmg
 
-sudo /usr/local/bin/vfuse  -i/Users/buildbox/Desktop/osx-10.15.1-19B88.apfs.dmg --use-qemu /usr/local/Cellar/qemu/4.1.1/bin/qemu-img -n "macOS10.15.1" -s C0afajf2j421 --hw-model Macmini8,1
-
-                                    ||||||||||                                                  |||||||||||||||||||||||||                 ||||||||         ||||||||||              ||||
-                             Location of DMG created from auto DMG                         Location Vm fuse this stays the same          Name you want Vm  Serial number          Model type 
-                                                                                                                                                            DEP device        found from system report
-
+example 
+sudo /usr/local/bin/vfuse  -i/Users/Localtion/of image/usr/local/Cellar/qemu/4.1.1/bin/qemu-img -n "macOS10.15.1" -s C0afajf2j421 --hw-model Macmini8,1
 
 Option b
 Call Template using Vfuse -t - \location of template
