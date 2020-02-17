@@ -46,8 +46,7 @@ Guide on this is https://blog.eriknicolasgomez.com/2018/03/26/macOS-testing-tric
 )
 
 
-Step 5: 
-option a- Open terminal and run using the format
+5-option a- Open terminal and run using the format
 /usr/local/vfuse/bin/vfuse -i /path/to/dmg
 
 example 
