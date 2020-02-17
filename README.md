@@ -65,7 +65,7 @@ for examples of templates please see my Non DEP and My DEP (note the dep is link
 
 Useful links and Credits to
 
-VM hardware list https://kb.vmware.com/s/article/1003746 for template HW_Version
+https://kb.vmware.com/s/article/1003746
 
 https://github.com/chilcote/vfuse
 
@@ -77,9 +77,9 @@ https://soundsnw.wordpress.com/2019/01/23/creating-macos-mojave-vmware-images-fo
 
 https://scriptingosx.com/2019/10/download-a-full-install-macos-app-with-softwareupdate-in-catalina/
 
-Vfuse template example-https://github.com/chilcote/vfuse/wiki/Templates
+https://github.com/chilcote/vfuse/wiki/Templates
 
-VM Fusion -https://www.vmware.com/uk/products/fusion/fusion-evaluation.html
+https://www.vmware.com/uk/products/fusion/fusion-evaluation.html
 
-travellingtechguy-https://travellingtechguy.eu/macos-10-15-catalina-and-esxi/
+https://travellingtechguy.eu/macos-10-15-catalina-and-esxi/
 
