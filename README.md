@@ -18,6 +18,8 @@ https://drive.google.com/file/d/1Ajvyf5EkilwYfVNa20QuXC9TI4e9GNAL/view?usp=shari
 Link to Youtube 00:00 to 12:00
 https://www.youtube.com/watch?v=nK7c7u1EYqQ
 
+
+------------------------------------------------------------------------------------------------------------------------------
 1- 
 install home-brew  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
