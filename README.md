@@ -42,7 +42,6 @@ Create the DMG.
 Guide on this is https://blog.eriknicolasgomez.com/2018/03/26/macOS-testing-tricks-reusing-base-images-and-obtaining-a-root-shell-prior-to-SetupAssistant-with-LanguageChooser/
 )
 
-
 5-option a- Open terminal and run using the format
 /usr/local/vfuse/bin/vfuse -i /path/to/dmg
 
@@ -50,8 +49,11 @@ example
 sudo /usr/local/bin/vfuse  -i/Users/Localtion/of image/usr/local/Cellar/qemu/4.1.1/bin/qemu-img -n "macOS10.15.1" -s C0afajf2j421 --hw-model Macmini8,1
 
 Option b
-
 Call Template using Vfuse -t - \location of template
+example
+vfuse -t /Users/cdevice/Documents/VM/MacOS10.15_DEP.json
+
+
 for examples of templates please see my Non DEP and My DEP (note the dep is linked to my zero touch workflow just replace Serialnumber with one in your org where as my Non DEP is a generic template.
 
 
