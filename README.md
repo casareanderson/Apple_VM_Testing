@@ -79,7 +79,7 @@ For examples of templates please see my Non DEP and My DEP (note the dep is link
 
 
 ------------------------------------------------------------------------------------------------------------------------------
-Useful links and Credits to
+Useful links and Credits
 
 https://kb.vmware.com/s/article/1003746
 
