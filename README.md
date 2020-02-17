@@ -49,7 +49,7 @@ example
 sudo /usr/local/bin/vfuse  -i/Users/Localtion/of image/usr/local/Cellar/qemu/4.1.1/bin/qemu-img -n "macOS10.15.1" -s C0afajf2j421 --hw-model Macmini8,1
 
 Option b
-Call Template using Vfuse -t - \location of template
+Call Template using Vfuse -t - /location of template
 example
 vfuse -t /Users/cdevice/Documents/VM/MacOS10.15_DEP.json
 
