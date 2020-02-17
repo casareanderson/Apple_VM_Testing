@@ -1,6 +1,6 @@
 {
-    "source_dmg": "/Users/buildbox/Documents/VM/osx-10.15.1-19B88.apfs.dmg",
-    "output_dir": "/Users/christian.anderson/Documents/Virtual Machines.localized",
+    "source_dmg": "/Users/myuser/Documents/VM/osx-10.15.1-19B88.apfs.dmg",
+    "output_dir": "/Users/myuser/Documents/Virtual Machines.localized",
     "output_name":"MacOS 10.15.1",
     "cache": false,
     "hw_version": 16,
