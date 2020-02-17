@@ -18,15 +18,17 @@ https://www.modtitan.com/
 https://soundsnw.wordpress.com/2019/01/23/creating-macos-mojave-vmware-images-for-testing-machines-enrolled-in-apples-device-enrollment-program/
 https://scriptingosx.com/2019/10/download-a-full-install-macos-app-with-softwareupdate-in-catalina/
 
+Link to Slides
+https://drive.google.com/file/d/1Ajvyf5EkilwYfVNa20QuXC9TI4e9GNAL/view?usp=sharing
+
 1- install home-brew  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 2- Run Brew Install qemu vfuse
 
-4-Once installed Open MDS and navigate to  Download macOS and select the OS you require
+3-Once installed Open MDS and navigate to  Download macOS and select the OS you require
 (Note here you can change the type of OS you want using the drop down)
 
-Step 4
-Download  Auto DMG and Drag the image you want to create
+4-Download  Auto DMG and Drag the image you want to create
 Save As: in location
 (to create a resuable DMG
 Drag and drop the base installer app.
@@ -34,6 +36,7 @@ Uncheck the Apply updates option.
 In the AutoDMG menu, go to Window -> Advanced Options and increase the Volume Size. I personally use 100GB.
 Create the DMG.
 
+(nice note)
 To Reuse the DMG
 Drag and drop the resulting dmg.
 Check the Apple updates option.
@@ -41,7 +44,9 @@ Add any custom pkgs you wish to install.
 Create the DMG.
 Guide on this is https://blog.eriknicolasgomez.com/2018/03/26/macOS-testing-tricks-reusing-base-images-and-obtaining-a-root-shell-prior-to-SetupAssistant-with-LanguageChooser/
 )
-Step 7: 
+
+
+Step 5: 
 option a- Open terminal and run using the format
 /usr/local/vfuse/bin/vfuse -i /path/to/dmg
 
