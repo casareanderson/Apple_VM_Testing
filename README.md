@@ -1,4 +1,6 @@
 # Apple testing Workflow
+
+------------------------------------------------------------------------------------------------------------------------------
 Step by Step guide as discussed at London Apple admins https://www.youtube.com/watch?v=nK7c7u1EYqQ
 I have attached two sample Json files for you to play about with
 
@@ -76,6 +78,7 @@ For examples of templates please see my Non DEP and My DEP (note the dep is link
 
 
 
+------------------------------------------------------------------------------------------------------------------------------
 Useful links and Credits to
 
 https://kb.vmware.com/s/article/1003746
