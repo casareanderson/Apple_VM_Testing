@@ -18,14 +18,18 @@ https://drive.google.com/file/d/1Ajvyf5EkilwYfVNa20QuXC9TI4e9GNAL/view?usp=shari
 Link to Youtube 00:00 to 12:00
 https://www.youtube.com/watch?v=nK7c7u1EYqQ
 
-1- install home-brew  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+1- 
+install home-brew  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-2- Run Brew Install qemu vfuse
+2- 
+Run Brew Install qemu vfuse
 
-3-Once installed Open MDS and navigate to  Download macOS and select the OS you require
+3-
+Once installed Open MDS and navigate to  Download macOS and select the OS you require
 (Note here you can change the type of OS you want using the drop down)
 
-4-Download  Auto DMG and Drag the image you want to create
+4-
+Download  Auto DMG and Drag the image you want to create
 Save As: in location
 (to create a resuable DMG
 Drag and drop the base installer app.
@@ -42,15 +46,22 @@ Create the DMG.
 Guide on this is https://blog.eriknicolasgomez.com/2018/03/26/macOS-testing-tricks-reusing-base-images-and-obtaining-a-root-shell-prior-to-SetupAssistant-with-LanguageChooser/
 )
 
-5-Option a- Open terminal and run using the format
+5-
+
+Option a- Open terminal and run using the format
 /usr/local/vfuse/bin/vfuse -i /path/to/dmg
 
-example 
+Example 
+
 sudo /usr/local/bin/vfuse  -i/Users/Localtion/of image/usr/local/Cellar/qemu/4.1.1/bin/qemu-img -n "macOS10.15.1" -s C0afajf2j421 --hw-model Macmini8,1
 
 Option b
+
 Call Template using Vfuse -t - /location of template
-example
+
+
+Example
+
 vfuse -t /Users/cdevice/Documents/VM/MacOS10.15_DEP.json
 
 
