@@ -50,7 +50,7 @@ Create the DMG.
 Guide on this is https://blog.eriknicolasgomez.com/2018/03/26/macOS-testing-tricks-reusing-base-images-and-obtaining-a-root-shell-prior-to-SetupAssistant-with-LanguageChooser/
 )
 
-5-
+5- Run either of the following
 
 Option a- Open terminal and run using the format
 /usr/local/vfuse/bin/vfuse -i /path/to/dmg
