@@ -62,8 +62,9 @@ Option a- Open terminal and run using the format
 /usr/local/vfuse/bin/vfuse -i /path/to/dmg
 
 Example 
- Note i have a more detailed example 
-sudo /usr/local/bin/vfuse  -i/Users/Localtion/of image/usr/local/Cellar/qemu/4.1.1/bin/qemu-img -n "macOS10.15.1" -s C0afajf2j421 --hw-model Macmini8,1
+ Note i have a more detailed example Single line breakdown attached in this repop
+ 
+sudo /usr/local/bin/vfuse  -i/Users/Localtion/of image/usr/local/Cellar/qemu/4.1.1/bin/qemu-img -n "macOS10.15.1" -s C0bfajfa2j421 --hw-model Macmini8,1
 
 Option b
 
