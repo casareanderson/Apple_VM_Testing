@@ -17,31 +17,31 @@ https://drive.google.com/file/d/1Ajvyf5EkilwYfVNa20QuXC9TI4e9GNAL/view?usp=shari
 
 
 ------------------------------------------------------------------------------------------------------------------------------
-*Install Homebrew with the following command  
+* Install Homebrew with the following command  
 
 ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" ```
 
-*Run the following command after Homebrew is installed brew install gemu vfuse
-*Once installed, open MDS and navigate to Download macOS and select the OS you require
+* Run the following command after Homebrew is installed brew install gemu vfuse
+* Once installed, open MDS and navigate to Download macOS and select the OS you require
     **Note:** Here you can change the type of OS you want using the dropdown
-*Download  AutoDMG and drag the image you want to create
-    *Save As: in location
-        *To create a reusable DMG drag and drop the base installer app
-        *Uncheck the Apply updates option.
-    *In the AutoDMG menu go to Window, then Advanced Options and increase volume size.
-        *I personally use 100GB
-    *Then click Create DMG
+* Download  AutoDMG and drag the image you want to create
+    * Save As: in location
+        * To create a reusable DMG drag and drop the base installer app
+        * Uncheck the Apply updates option.
+    * In the AutoDMG menu go to Window, then Advanced Options and increase volume size.
+        * I personally use 100GB
+    * Then click Create DMG
         **Note**: To reuse the DMG, here is a nice guide on this: https://blog.eriknicolasgomez.com/2018/03/26/macOS-testing-tricks-reusing-base-images-and-obtaining-a-root-shell-prior-to-SetupAssistant-with-LanguageChooser/
-*Run through one of the following options:
-    *Option A: Open terminal and run the following command:
+* Run through one of the following options:
+    * Option A: Open terminal and run the following command:
         
         ```/usr/local/vfuse/bin/vfuse -i /path/to/dmg -s real serial number - hw-model real model number```
 
-    *Option B: Open terminal and run the following command:
+    * Option B: Open terminal and run the following command:
         
         ```Vfuse -t - /location of template```
 
-*Examples*:
+**Examples**:
 Option A: 
 
 ```sudo /usr/local/bin/vfuse -i /Users/Localtion/of image/usr/local/Cellar/qemu/4.1.1/bin/qemu-img -n "macOS10.15.1" -s C0bfajfa2j421 --hw-model Macmini8,1```
