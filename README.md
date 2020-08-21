@@ -8,7 +8,7 @@ https://drive.google.com/file/d/1Ajvyf5EkilwYfVNa20QuXC9TI4e9GNAL/view?usp=shari
 
 **Note**: I have attached two sample JSON files for you to use as examples
 
-##Requirements:## 
+## Requirements: ## 
 
     *MDS - https://twocanoes.com/products/mac/mac-deploy-stick/
     *HomeBrew - https://brew.sh/
