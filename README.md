@@ -10,10 +10,10 @@ https://drive.google.com/file/d/1Ajvyf5EkilwYfVNa20QuXC9TI4e9GNAL/view?usp=shari
 
 ## Requirements: ## 
 
-    *MDS - https://twocanoes.com/products/mac/mac-deploy-stick/
-    *HomeBrew - https://brew.sh/
-    *Vfuse - https://github.com/chilcote/vfuse
-    *AutoDMG - https://github.com/MagerValp/AutoDMG
+    * MDS - https://twocanoes.com/products/mac/mac-deploy-stick/
+    * HomeBrew - https://brew.sh/
+    * Vfuse - https://github.com/chilcote/vfuse
+    * AutoDMG - https://github.com/MagerValp/AutoDMG
 
 
 ------------------------------------------------------------------------------------------------------------------------------
