@@ -1,4 +1,4 @@
-#Stage Mac Testing with VMware Fusion#
+# Stage Mac Testing with VMware Fusion #
 
 ------------------------------------------------------------------------------------------------------------------------------
 These are the step-by-step guide as discussed at the London Apple Admins Conference. For reference here is the video of the conference: https://www.youtube.com/watch?v=nK7c7u1EYqQ
