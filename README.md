@@ -21,7 +21,7 @@ https://drive.google.com/file/d/1Ajvyf5EkilwYfVNa20QuXC9TI4e9GNAL/view?usp=shari
 
 ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" ```
 
-* Run the following command after Homebrew is installed brew install gemu vfuse
+* Run the following command after Homebrew is installed ```brew install gemu vfuse```
 * Once installed, open MDS and navigate to Download macOS and select the OS you require
     **Note:** Here you can change the type of OS you want using the dropdown
 * Download  AutoDMG and drag the image you want to create
